@@ -1,0 +1,6 @@
+
+ se escanea la portada y una vez está la foto escaneada:
+
+	- Se reduce la imagen, de tal manera que su nuevo tamaño será: 140 x 140 pixels
+	- Se reduce la calidad del jpg a un 30 %.
+

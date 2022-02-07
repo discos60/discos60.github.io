@@ -1,0 +1,41 @@
+
+/*********/
+/* ToTop */
+/*********/
+#toTop {
+	display: none;
+	text-decoration: none;
+	text-indent: 100%;
+	
+	/* Format */
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #000;
+	
+	/* Image as background */  
+	background: url("to-top1.png") no-repeat 0px 0px;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+  	  
+	  
+	/* Position */
+	position: fixed;
+	bottom: 14px;
+	right: 3%;
+	overflow: hidden;
+}
+
+#toTopHover {
+	width: 40px;
+	height: 40px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
